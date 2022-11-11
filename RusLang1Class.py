@@ -156,7 +156,7 @@ class ClassRusLang:
 				Cell = ClassCell('Letters/Cell.png', lst2[i][0], lst2[i][1], lst2[i][2], lst2[i][3])
 				Cell.CellUpdate(virtual_surface)
 		lst4 = lst4 + lst2
-		print(lst4)
+		# print(lst4)
 		# Характеристики кнопок
 		def button():
 			mouse = pg.mouse.get_pos()
